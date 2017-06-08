@@ -3,7 +3,14 @@
 <head>
     <title>Hooni's advantage #1</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
     <link rel="stylesheet" type="text/css" href="advantage1.css">
+    <style>
+      #panel1, #panel2, #panel3 {
+        display: none;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -23,18 +30,28 @@
   <div style="text-align: center">
     <h1>용훈 is good at playing ball games</h1>
   </div>
-  <div class="para">
+  <div class="para" id="flip1">
+    <p>#1 (Click!)</p>
+  </div>
+  <div class="para" id="panel1">
     <p><center><img src="pos1.jpg" height="360px" width="480px"></center></p>
     <p>슈팅 전 회장 12학번 이홍기 선배님, 12학번 이주형 선배님의 증언</p>
   </div>
-  <div class="para">
+  <div class="para" id="flip2">
+    <p>#2 (Click!)</p>
+  </div>
+  <div class="para" id="panel2">
     <p><center><img src="pos2.jpg" height="360px" width="480px"></center></p>
     <p>학생회장 13학번 엄형근 선배님의 농구 선생님</p>
   </div>
-  <div class="para">
+  <div class="para" id="flip3">
+    <p>#3 (Click!)</p>
+  </div>
+  <div class="para" id="panel3">
     <p><center><img src="pos3.jpg" height="360px" width="480px"></center></p>
     <p>고등학교 시절 삼육대학교 총장배 농구대회 준우승</p>
   </div>
+  <script type="text/javascript" src="advantage1.js"></script>
 
   </body>
   </html>

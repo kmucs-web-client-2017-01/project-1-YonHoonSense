@@ -3,7 +3,13 @@
 <head>
     <title>Hooni's advantage #2</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
     <link rel="stylesheet" type="text/css" href="advantage2.css">
+    <style>
+      #panel1, #panel2, #panel3, #panel4, #panel5 {
+        display: none;
+      }
+    </style>
   </head>
 
   <body>
@@ -23,31 +29,47 @@
   <div style="text-align: center">
     <h1>용훈 has served in the army</h1>
   </div>
-  <div class="para">
+  <div class="para" id="flip1">
+    <p>#1 (Click!)</p>
+  </div>
+  <div class="para" id="panel1">
     <a href="pos4.jpg" target="_blank">
     <p><center><img src="pos4.jpg" height="360px" width="480px"></center></p></a>
     <p>전역증</p>
   </div>
-  <div class="para">
+  <div class="para" id="flip2">
+    <p>#2 (Click!)</p>
+  </div>
+  <div class="para" id="panel2">
     <a href="pos5.jpg" target="_blank">
     <p><center><img src="pos5.jpg" height="640px" width="480px"></center></p></a>
     <p>전투복, 전역모, 명예전역증, 롤링페이퍼</p>
   </div>
-  <div class="para">
+  <div class="para" id="flip3">
+    <p>#3 (Click!)</p>
+  </div>
+  <div class="para" id="panel3">
     <a href="pos6.jpg" target="_blank">
     <p><center><img src="pos6.jpg" height="640px" width="800px"></center></p></a>
     <p>전역날 소대원들과 함께</p>
   </div>
-  <div class="para">
+  <div class="para" id="flip4">
+    <p>#4 (Click!)</p>
+  </div>
+  <div class="para" id="panel4">
     <a href="pos7.jpg" target="_blank">
     <p><center><img src="pos7.jpg" height="640px" width="480px"></center></p></a>
     <p>전역날 분대원들과 함께</p>
   </div>
-  <div class="para">
+  <div class="para" id="flip5">
+    <p>#5 (Click!)</p>
+  </div>
+  <div class="para" id="panel5">
     <a href="pos8.jpg" target="_blank">
     <p><center><img src="pos8.jpg" height="640px" width="800px"></center></p></a>
     <p>전역날 중대원들과 함께</p>
   </div>
+  <script type="text/javascript" src="advantage2.js"></script>
 
   </body>
   </html>
